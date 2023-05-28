@@ -40,5 +40,10 @@ namespace arsivDeneme
             frm.Show();
             this.Hide();
         }
+
+        private void menuEkrani_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

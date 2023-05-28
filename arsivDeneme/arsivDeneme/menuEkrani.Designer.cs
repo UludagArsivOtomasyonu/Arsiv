@@ -44,7 +44,7 @@ namespace arsivDeneme
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(98, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(682, 27);
+            this.label2.Size = new System.Drawing.Size(546, 22);
             this.label2.TabIndex = 0;
             this.label2.Text = "Uludağ Üniversitesi İşletme Fakültesi Arşiv Sistemi Kullanıcı Paneli";
             // 
@@ -127,6 +127,7 @@ namespace arsivDeneme
             this.Controls.Add(this.label2);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Name = "menuEkrani";
+            this.Load += new System.EventHandler(this.menuEkrani_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
