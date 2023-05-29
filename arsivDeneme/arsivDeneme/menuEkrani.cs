@@ -41,9 +41,27 @@ namespace arsivDeneme
             this.Hide();
         }
 
-        private void menuEkrani_Load(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
-
+            emanetal frm = new emanetal();
+            frm.Show();
+            this.Hide();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            dokumanduzenle frm = new dokumanduzenle();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            emanetver frm = new emanetver();
+            frm.Show();
+            this.Hide();
+        }
+
+        
     }
 }

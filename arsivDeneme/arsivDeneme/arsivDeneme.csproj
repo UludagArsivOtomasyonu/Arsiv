@@ -53,6 +53,12 @@
     <Compile Include="aramaEkrani.Designer.cs">
       <DependentUpon>aramaEkrani.cs</DependentUpon>
     </Compile>
+    <Compile Include="dokumanduzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dokumanduzenle.Designer.cs">
+      <DependentUpon>dokumanduzenle.cs</DependentUpon>
+    </Compile>
     <Compile Include="dokumanEkle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,18 @@
     </Compile>
     <Compile Include="dokumanKaldir.Designer.cs">
       <DependentUpon>dokumanKaldir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emanetal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emanetal.Designer.cs">
+      <DependentUpon>emanetal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emanetver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emanetver.Designer.cs">
+      <DependentUpon>emanetver.cs</DependentUpon>
     </Compile>
     <Compile Include="girisEkrani.cs">
       <SubType>Form</SubType>

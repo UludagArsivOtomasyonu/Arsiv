@@ -90,6 +90,7 @@ namespace arsivDeneme
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(223, 22);
             this.textBox1.TabIndex = 4;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -97,6 +98,7 @@ namespace arsivDeneme
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(223, 22);
             this.textBox2.TabIndex = 5;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // comboBox1
             // 
@@ -105,6 +107,7 @@ namespace arsivDeneme
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(223, 24);
             this.comboBox1.TabIndex = 6;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -115,7 +118,7 @@ namespace arsivDeneme
             this.label5.Size = new System.Drawing.Size(120, 24);
             this.label5.TabIndex = 7;
             this.label5.Text = "Sayfa Sayısı :";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+//            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -133,6 +136,7 @@ namespace arsivDeneme
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(223, 22);
             this.textBox3.TabIndex = 9;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -140,6 +144,7 @@ namespace arsivDeneme
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(223, 22);
             this.textBox4.TabIndex = 10;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label7
             // 
@@ -158,6 +163,7 @@ namespace arsivDeneme
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(223, 24);
             this.comboBox2.TabIndex = 12;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // dokumanEkle
             // 

@@ -78,58 +78,9 @@ namespace arsivDeneme
             this.Hide();
         }
 
-        private void textBox2_Enter(object sender, EventArgs e)
-        {
-            if (txtSifre.Text == "Şifre")
-            {
-                txtSifre.Text = "";
-                txtSifre.PasswordChar = '*';
-            }
-        }
-
-        private void textBox2_Leave(object sender, EventArgs e)
-        {
-            if (txtSifre.Text == "")
-            {
-                txtSifre.Text = "Şifre";
-                txtSifre.PasswordChar = '\0';
-            }
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void textBox1_Enter(object sender, EventArgs e)
-        {
-            if (txtKullaniciAdi.Text == "Kullanıcı Adı")
-            {
-                txtKullaniciAdi.Text = "";
-            }
-        }
-
-        private void textBox1_Leave(object sender, EventArgs e)
-        {
-            if (txtKullaniciAdi.Text == "")
-            {
-                txtKullaniciAdi.Text = "Kullanıcı Adı";
-            }
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void girisEkrani_Load(object sender, EventArgs e)
         {
-            txtKullaniciAdi.Text = "Kullanıcı Adı";
-            txtSifre.Text = "Şifre";
+
         }
     }
 }
