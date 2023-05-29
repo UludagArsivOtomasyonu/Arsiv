@@ -24,11 +24,11 @@ namespace arsivDeneme
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            comboBox1.Items.Add("a");
-            comboBox1.Items.Add("b");
-            comboBox1.Items.Add("g");
-            comboBox1.Items.Add("v");
-            comboBox1.Items.Add("a");
+            comboBox1.Items.Add("aa");
+            comboBox1.Items.Add("ba");
+            comboBox1.Items.Add("gaa");
+            comboBox1.Items.Add("vaa");
+            comboBox1.Items.Add("aaaa");
             // comboBox2.Items.Clear();
         }
 
@@ -57,5 +57,12 @@ namespace arsivDeneme
                     textBox2.PasswordChar = '*';
                 }
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //Sadece mesaj gösterimi.
+            MessageBox.Show("kaydınız oluşturuldu");
+        }
     }
 }

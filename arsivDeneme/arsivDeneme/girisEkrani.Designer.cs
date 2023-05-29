@@ -101,7 +101,7 @@ namespace arsivDeneme
             // 
             // btnkyt
             // 
-            this.btnkyt.Location = new System.Drawing.Point(476, 418);
+            this.btnkyt.Location = new System.Drawing.Point(476, 422);
             this.btnkyt.Name = "btnkyt";
             this.btnkyt.Size = new System.Drawing.Size(145, 55);
             this.btnkyt.TabIndex = 6;
