@@ -35,6 +35,7 @@ namespace arsivDeneme
             this.label3 = new System.Windows.Forms.Label();
             this.txtSifre = new System.Windows.Forms.TextBox();
             this.BtnGiris = new System.Windows.Forms.Button();
+            this.btnkyt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -89,7 +90,7 @@ namespace arsivDeneme
             // BtnGiris
             // 
             this.BtnGiris.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnGiris.Location = new System.Drawing.Point(389, 361);
+            this.BtnGiris.Location = new System.Drawing.Point(476, 341);
             this.BtnGiris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnGiris.Name = "BtnGiris";
             this.BtnGiris.Size = new System.Drawing.Size(145, 49);
@@ -98,12 +99,23 @@ namespace arsivDeneme
             this.BtnGiris.UseVisualStyleBackColor = true;
             this.BtnGiris.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnkyt
+            // 
+            this.btnkyt.Location = new System.Drawing.Point(476, 418);
+            this.btnkyt.Name = "btnkyt";
+            this.btnkyt.Size = new System.Drawing.Size(145, 55);
+            this.btnkyt.TabIndex = 6;
+            this.btnkyt.Text = "kayıt ol";
+            this.btnkyt.UseVisualStyleBackColor = true;
+            this.btnkyt.Click += new System.EventHandler(this.btnkyt_Click);
+            // 
             // girisEkrani
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(936, 610);
+            this.Controls.Add(this.btnkyt);
             this.Controls.Add(this.BtnGiris);
             this.Controls.Add(this.txtSifre);
             this.Controls.Add(this.label3);
@@ -127,6 +139,7 @@ namespace arsivDeneme
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtSifre;
         private System.Windows.Forms.Button BtnGiris;
+        private System.Windows.Forms.Button btnkyt;
     }
 }
 

@@ -82,5 +82,12 @@ namespace arsivDeneme
         {
 
         }
+
+        private void btnkyt_Click(object sender, EventArgs e)
+        {
+            kayitEkrani frm = new kayitEkrani();
+            frm.Show();
+            this.Hide();
+        }
     }
 }
