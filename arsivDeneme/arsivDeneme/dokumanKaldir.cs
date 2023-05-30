@@ -24,7 +24,7 @@ namespace arsivDeneme
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+            string dokumanadi = textBox1.Text;
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -36,8 +36,22 @@ namespace arsivDeneme
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int dosya = listBox1.SelectedIndex;
+            if (dosya != -1)
+            {
+                listBox1.Items.RemoveAt(dosya);
+            }
+            else
+            {
+                MessageBox.Show("Lütfen Listeden Dosya Seçiniz");
+            }
+
             
-            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add(textBox1.Text);
         }
     }
 }
