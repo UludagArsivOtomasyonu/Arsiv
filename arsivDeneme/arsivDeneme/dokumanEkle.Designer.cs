@@ -42,6 +42,7 @@ namespace arsivDeneme
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -107,7 +108,6 @@ namespace arsivDeneme
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(223, 24);
             this.comboBox1.TabIndex = 6;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -118,7 +118,6 @@ namespace arsivDeneme
             this.label5.Size = new System.Drawing.Size(120, 24);
             this.label5.TabIndex = 7;
             this.label5.Text = "Sayfa Sayısı :";
-//            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -159,11 +158,25 @@ namespace arsivDeneme
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "burak ",
+            "nejat",
+            "berkay"});
             this.comboBox2.Location = new System.Drawing.Point(402, 158);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(223, 24);
             this.comboBox2.TabIndex = 12;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Location = new System.Drawing.Point(445, 402);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(155, 56);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "kaydet";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // dokumanEkle
             // 
@@ -171,6 +184,7 @@ namespace arsivDeneme
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(841, 554);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox4);
@@ -208,5 +222,6 @@ namespace arsivDeneme
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button button1;
     }
 }
