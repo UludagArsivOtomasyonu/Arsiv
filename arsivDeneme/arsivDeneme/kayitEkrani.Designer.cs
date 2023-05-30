@@ -39,6 +39,7 @@ namespace arsivDeneme
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -50,7 +51,6 @@ namespace arsivDeneme
             this.label1.Size = new System.Drawing.Size(647, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "Uludağ Üniversitesi İşletme Fakültesi Arşiv Sistemi Kayıt Ekranı\r\n";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button2
             // 
@@ -62,6 +62,7 @@ namespace arsivDeneme
             this.button2.TabIndex = 12;
             this.button2.Text = "Kayıt Ol";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox2
             // 
@@ -69,6 +70,7 @@ namespace arsivDeneme
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(241, 22);
             this.textBox2.TabIndex = 10;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label3
             // 
@@ -87,6 +89,7 @@ namespace arsivDeneme
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(241, 22);
             this.textBox1.TabIndex = 8;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -98,7 +101,6 @@ namespace arsivDeneme
             this.label2.Size = new System.Drawing.Size(204, 24);
             this.label2.TabIndex = 7;
             this.label2.Text = "İşletme Mail Adresiniz:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
             // 
@@ -110,7 +112,6 @@ namespace arsivDeneme
             this.label4.Size = new System.Drawing.Size(232, 24);
             this.label4.TabIndex = 15;
             this.label4.Text = "Görevli Olduğunuz Kısım :";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox4
             // 
@@ -130,7 +131,6 @@ namespace arsivDeneme
             this.label5.Size = new System.Drawing.Size(173, 24);
             this.label5.TabIndex = 13;
             this.label5.Text = "Adınız - Soyadınız :";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // comboBox1
             // 
@@ -139,13 +139,26 @@ namespace arsivDeneme
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(241, 24);
             this.comboBox1.TabIndex = 16;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // Form2
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(599, 316);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(111, 21);
+            this.checkBox1.TabIndex = 17;
+            this.checkBox1.Text = "şifreyi göster";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // kayitEkrani
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(824, 555);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox4);
@@ -157,7 +170,7 @@ namespace arsivDeneme
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Name = "Form2";
+            this.Name = "kayitEkrani";
             this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -176,5 +189,6 @@ namespace arsivDeneme
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

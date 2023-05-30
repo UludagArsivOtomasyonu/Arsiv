@@ -20,26 +20,13 @@ namespace arsivDeneme
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            aramaEkrani frm = new aramaEkrani();
-            frm.Show();
-            this.Hide();
-        }
+        
+      
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            dokumanEkle frm = new dokumanEkle();
-            frm.Show();
-            this.Hide();
-        }
+        
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            dokumanKaldir frm = new dokumanKaldir();
-            frm.Show();
-            this.Hide();
-        }
+       
+        
 
         private void button6_Click(object sender, EventArgs e)
         {
@@ -62,6 +49,25 @@ namespace arsivDeneme
             this.Hide();
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dokumanEkle frm = new dokumanEkle();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            dokumanKaldir frm = new dokumanKaldir();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            aramaEkrani frm = new aramaEkrani();
+            frm.Show();
+            this.Hide();
+        }
     }
 }

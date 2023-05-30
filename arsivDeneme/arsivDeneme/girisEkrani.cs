@@ -33,6 +33,7 @@ namespace arsivDeneme
             // Kullanıcı adı ve şifre doğrulaması
             string kullaniciAdi = txtKullaniciAdi.Text;
             string sifre = txtSifre.Text;
+           
 
             string server = "172.21.54.3"; // MySQL sunucu adresi
             string database = "Grup1-2023"; // Veritabanı adı
@@ -81,6 +82,13 @@ namespace arsivDeneme
         private void girisEkrani_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnkyt_Click(object sender, EventArgs e)
+        {
+            kayitEkrani frm = new kayitEkrani();
+            frm.Show();
+            this.Hide();
         }
     }
 }
