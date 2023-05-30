@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace arsivDeneme
 {
@@ -43,6 +44,14 @@ namespace arsivDeneme
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
             string bırakan = textBox4.Text;
+        }
+       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string connectionstring = "server=172.21.54.3 ; database=Grup1-2023 ; uid=Grup1-2023 ; password=NyP:974.cc;";
+            var connection = new MySqlConnection(connectionstring);
+
+            MessageBox.Show("döküman eklendi");
         }
     }
 }

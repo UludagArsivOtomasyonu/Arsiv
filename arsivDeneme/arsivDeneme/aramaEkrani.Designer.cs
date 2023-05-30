@@ -63,8 +63,9 @@ namespace arsivDeneme
             this.BtnAra.Name = "BtnAra";
             this.BtnAra.Size = new System.Drawing.Size(179, 53);
             this.BtnAra.TabIndex = 4;
-            this.BtnAra.Text = "Ara";
+            this.BtnAra.Text = "listele";
             this.BtnAra.UseVisualStyleBackColor = true;
+            this.BtnAra.Click += new System.EventHandler(this.BtnAra_Click);
             // 
             // textBox1
             // 
@@ -72,6 +73,7 @@ namespace arsivDeneme
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(223, 25);
             this.textBox1.TabIndex = 8;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 

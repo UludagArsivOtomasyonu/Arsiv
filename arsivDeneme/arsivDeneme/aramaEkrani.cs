@@ -16,5 +16,17 @@ namespace arsivDeneme
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            string dokumanadi = textBox1.Text;
+        }
+
+        
+
+        private void BtnAra_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add(textBox1.Text);
+        }
     }
 }
