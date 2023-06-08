@@ -33,7 +33,6 @@ namespace arsivDeneme
             // Kullanıcı adı ve şifre doğrulaması
             string kullaniciAdi = txtKullaniciAdi.Text;
             string sifre = txtSifre.Text;
-           
 
             string server = "172.21.54.3"; // MySQL sunucu adresi
             string database = "Grup1-2023"; // Veritabanı adı
@@ -42,6 +41,8 @@ namespace arsivDeneme
 
             string connectionString = $"server={server};database={database};uid={uid};password={password};";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
+
+             
             {
                 try
                 {

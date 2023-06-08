@@ -15,13 +15,14 @@ namespace arsivDeneme
 {
     public partial class menuEkrani : Form
     {
+        
         public menuEkrani()
         {
             InitializeComponent();
         }
 
-        
-      
+
+       
 
         
 
