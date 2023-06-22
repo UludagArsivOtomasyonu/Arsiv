@@ -57,7 +57,7 @@ namespace arsivDeneme
             //tring connectionstring = "server=172.21.54.3 ; database=Grup1-2023 ; uid=Grup1-2023 ; password=NyP:974.cc;";
             //var connection = new MySqlConnection(connectionstring);
 
-            //MessageBox.Show("döküman eklendi");
+            MessageBox.Show("döküman eklendi");
         }
     }
 }
