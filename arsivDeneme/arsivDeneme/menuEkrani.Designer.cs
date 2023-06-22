@@ -133,6 +133,7 @@ namespace arsivDeneme
             this.Controls.Add(this.label2);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Name = "menuEkrani";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

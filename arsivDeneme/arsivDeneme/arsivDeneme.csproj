@@ -107,11 +107,17 @@
     <EmbeddedResource Include="aramaEkrani.resx">
       <DependentUpon>aramaEkrani.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dokumanduzenle.resx">
+      <DependentUpon>dokumanduzenle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dokumanEkle.resx">
       <DependentUpon>dokumanEkle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dokumanKaldir.resx">
       <DependentUpon>dokumanKaldir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emanetal.resx">
+      <DependentUpon>emanetal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="girisEkrani.resx">
       <DependentUpon>girisEkrani.cs</DependentUpon>
